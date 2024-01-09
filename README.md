@@ -1,8 +1,10 @@
+SPEECH EMOTION RECOGNITION WITH AUDIO FEATURE EXTRACTION
+
 Speech Emotion Recognition is a field of study that involves the identification and analysis of emotional states conveyed through speech. It aims to capture the emotional content of spoken language, allowing machines to understand and respond to human emotions.
 
 Understanding human emotions in speech is essential for developing more empathetic and responsive human-computer interaction systems as well as for applications in customer service, virtual assistants, mental health monitoring, and more. It enables systems to adapt their responses based on the emotional context, thereby enhancing user experience.
 
-In this project I have explored Speech Emotion Recognition using machine learning techniques. 
+In this project, I have explored Speech Emotion Recognition using machine learning techniques. 
 
 I’ve used the RAVDESS dataset (acronym for the Ryerson Audio-Visual Database of Emotional Speech and Song) which comprises of 7,356 files, each rated by 247 individuals on emotional validity, intensity, and genuineness through 10 evaluations.
 
@@ -43,6 +45,7 @@ The mean of the mel spectrogram features is computed, providing insights into th
 
 The MLPClassifier in scikit-learn is a Multi-layer Perceptron, a type of neural network used for supervised learning tasks. It learns by adjusting its settings based on examples, using a method called backpropagation and pays attention to complex patterns in the input data using activation functions.
 
+
 Applications of Speech Emotion Recognition:
 
 Speech Emotion Recognition enhances Human-Computer Interaction (HCI) by enabling systems to discern and respond to users’ emotional states conveyed through speech. 
@@ -51,7 +54,6 @@ SER can be applied to tailor user interfaces, virtual assistants, and customer s
 
 In educational software, SER can adapt learning environments to suit students’ emotional engagement, while in healthcare, it can aid in mental health monitoring. Entertainment platforms can leverage SER to dynamically adjust content and accessibility options to benefit individuals with special needs. Overall, SER enriches HCI, creating emotionally intelligent systems that enhance user experience across various domains.
 
- 
 
 Future Scope:
 
