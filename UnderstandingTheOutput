@@ -1,0 +1,38 @@
+Understanding the output (add to github)
+
+1) Accuracy: The accuracy of 76.56% signifies the proportion of correctly classified instances by the model out of the total instances in the dataset.
+
+
+2) Classification Report: It summarizes the performance of the classification model across the four emotions: angry, calm, fearful, and happy. 
+
+a) Precision is the accuracy of positive predictions. 
+For the "angry" class, 79% of the predicted angry instances were correct, for "calm" it was 80%, for "fearful" it was 81%, and for "happy" it was 68%.
+
+b) Recall measures the ability to capture actual positive instances. 
+The model correctly identified 73% of the actual angry instances, 92% of calm, 68% of fearful, and 72% of happy instances.
+
+c) F1-score is the harmonic mean of precision and recall, providing a balanced metric. The F1-scores for angry, calm, fearful, and happy are 0.76, 0.85, 0.74, and 0.70, respectively.
+
+d) Support indicates the actual occurrences of each class in the dataset. Here, there were 41 instances of angry, 51 of calm, 50 of fearful, and 50 of happy.
+
+e) Accuracy is calculated as the ratio of correctly predicted instances to the total instances- it is 77%. This represents the model's ability to classify instances across all classes.
+
+f) Macro Avg and Weighted Avg:
+Macro average calculates the average of metrics for each class without considering class imbalance. Weighted average considers class imbalance and provides a weighted average based on the support for each class.
+
+
+3) Confusion Matrix: Each entry in the matrix indicates the count of instances for a specific combination of predicted and actual classes.
+
+                 Predicted
+                 Angry | Calm | Fearful | Happy
+----------------------------------------------
+Actual Angry      | 30   | 0   | 3       | 8
+Actual Calm       | 0    | 47  | 1       | 3
+Actual Fearful    | 3    | 7    | 34     | 6
+Actual Happy     | 5    | 5    | 4       | 36
+
+
+The rows represent the actual classes (Angry, Calm, Fearful, and Happy) while the columns represent the predicted classes by the model. Each cell contains the count of instances for the corresponding combination of actual and predicted classes.
+
+For example, the cell in the first row and second column (0) indicates that the model predicted 0 instances as Calm when the actual emotion was Angry. The cell in the fourth row and third column (4) indicates that the model predicted 4 instances as Fearful when the actual emotion was Happy.
+
